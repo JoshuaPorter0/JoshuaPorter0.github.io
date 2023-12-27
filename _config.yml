@@ -9,48 +9,54 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: America/Los_Angeles
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Josh's Jots 
+# the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: A Blog for my projects and thoughts. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  This is the technical blog of Joshua Porter which will cover computer science, machine learning, and data science/analysis.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: 'https://JoshuaPorter0.github.io'
 
-github:
-  username: github_username # change to your github username
-
-twitter:
-  username: twitter_username # change to your twitter username
-
+github: 
+  username: JoshuaPorter0 # change to your github username
+  
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Joshua Porter
+  email: Porterjosh76@gmail.com
   links:
+<<<<<<< HEAD
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    # https://twitter.com/username # change to your twitter homepage
+    - https://github.com/JoshuaPorter0 # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
-google_site_verification: # fill in to your verification string
+
+google_site_verification: googledc930a5ad83a4771.html
+=======
+    - https://github.com/JoshuaPorter0
+    - https://www.linkedin.com/in/joshua-porter-abc
+    - https://www.youtube.com/channel/UCsqavG-oHXirjLFs7O4ltGQ # Replace [YourChannelID] with your actual channel ID
+    # Uncomment below to add more social links
+    # - https://twitter.com/username # This line can be removed if you don't have a Twitter account
+
+
+google_site_verification: #googledc930a5ad83a4771.html
+>>>>>>> abcf31036f3864d8b3356c6c446cc64f9ebecaad
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: G-1J1QJGZ2JB
 
 # Prefer color scheme setting.
 #
@@ -73,30 +79,31 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://avatars.githubusercontent.com/u/151868227?v=4
 
 # boolean type, the global switch for TOC in posts.
 toc: true
 
 comments:
-  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: 'giscus' 
+  # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
-  disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  #disqus:
+    #shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
-  utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+  #utterances:
+    #repo: # <gh-username>/<repo>
+    #issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
-    input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    repo: <JoshuaPorter0>/<JoshuaPorter0.github.io>
+    repo_id: "R_kgDOK66p9Q"
+    category: "General"
+    category_id: "DIC_kwDOK66p9c4Cb0n4"
+    mapping: pathname # optional, default to 'pathname'
+    input_position: bottom # optional, default to 'bottom'
+    lang: site.lang # optional, default to the value of `site.lang`
+    reactions_enabled: 1 # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
