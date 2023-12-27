@@ -11,30 +11,26 @@
 #- type: twitter
 #  icon: "fa-brands fa-x-twitter"
   
-<<<<<<< HEAD
 #- type: rss
 #  icon: "fas fa-rss"
 #  noblank: true
-=======
+
 - type: rss
   icon: "fas fa-rss"
   noblank: true
->>>>>>> abcf31036f3864d8b3356c6c446cc64f9ebecaad
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 #
-<<<<<<< HEAD
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/joshua-porter-abc/'                  # Fill with your Linkedin homepage
-=======
+
  - type: linkedin
-   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-   url:  'https://www.linkedin.com/in/joshua-porter-abc/'                  # Fill with your Linkedin homepage
->>>>>>> abcf31036f3864d8b3356c6c446cc64f9ebecaad
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.linkedin.com/in/joshua-porter-abc/'                  # Fill with your Linkedin homepage
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
