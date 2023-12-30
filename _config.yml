@@ -33,7 +33,6 @@ social:
   name: Joshua Porter
   email: Porterjosh76@gmail.com
   links:
-
     # The first element serves as the copyright owner's link
     # https://twitter.com/username # change to your twitter homepage
     - https://github.com/JoshuaPorter0 # change to your github homepage
@@ -49,8 +48,6 @@ google_site_verification: googledc930a5ad83a4771.html
 
 
 google_site_verification: #googledc930a5ad83a4771.html
-
-
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
