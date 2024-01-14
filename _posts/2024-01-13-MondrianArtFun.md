@@ -5,24 +5,16 @@ date:   2024-01-13 11:00:00 -0400
 categories: Projects
 ---
 
+
+
 <link rel="stylesheet" href="/assets/css/Mondrian/style.css">
 <script src="/assets/js/Mondrian/script.js"></script>
 
-
-<html>
-<head>
-    <title>Mondrian Art Game</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<h1>Mondrian Art Creator</h1>
-	<p id="instructions">Click any box to make your 	own Mondrian art - or click generate to make a new 	template.</p>
-	<button id="generate-button">Generate</button>
-	<div id="art-container"></div>
-        <!-- Grid cells will be generated here by 	JavaScript -->
-    <script src="script.js"></script>
-</body>
-</html>
+<h1>Mondrian Art Creator</h1>
+<p id="instructions">Click any box to make your own Mondrian art - or click generate to make a new template.</p>
+<button id="generate-button">Generate</button>
+<div id="art-container"></div>
+<!-- Grid cells will be generated here by JavaScript -->
 
 
 
