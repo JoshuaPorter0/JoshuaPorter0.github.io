@@ -15,6 +15,10 @@ categories: Projects
 <button id="generate-button">Generate</button>
 <div id="art-container"></div>
 <!-- Grid cells will be generated here by JavaScript -->
+-------------------------------------------------------------------------------------------------------
+
+
+
 
 
 
@@ -27,6 +31,8 @@ Grimoire did most of the heavy lifting here but it definitely helped knowing fou
 I quite like the mondrian art style and I enjoyed the opportunity to try to tackle a problem by utilizing AI, though it was nowhere near as difficult as the project of spray painting my car which I undertook in June of 2022. 
 
 Here are some photos of the Mondrian car, Wanda:
+
+
 ![Wanda](/assets/Wanda/DesertWanda.jpg)
 ![Wanda](/assets/Wanda/WandaHauler.jpg)
 ![Wanda](/assets/Wanda/WillametteWanda.jpg)
