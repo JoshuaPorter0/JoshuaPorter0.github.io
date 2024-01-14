@@ -1,0 +1,6 @@
+/* Pong Game Styles */
+#pongCanvas {
+    background: #000;
+    display: block;
+    margin: auto;
+}
