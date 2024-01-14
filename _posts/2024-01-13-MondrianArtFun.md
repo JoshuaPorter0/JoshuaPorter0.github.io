@@ -16,6 +16,10 @@ categories: Projects
 <button id="generate-button">Generate</button>
 <div id="art-container"></div>
 <!-- Grid cells will be generated here by JavaScript -->
+-------------------------------------------------------------------------------------------------------
+
+
+
 
 --------------------------------------------------
 --------------------------------------------------
