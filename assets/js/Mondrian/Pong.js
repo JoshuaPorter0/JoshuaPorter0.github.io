@@ -1,19 +1,22 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     // Your Pong game code here
     const canvas = document.getElementById('pongCanvas');
+    const context = canvas.getContext('2d');
+
+    // Game elements: Ball, Paddles, Scores
+    let ball, paddle1, paddle2, score1, score2;
+
+    // Canvas event handler to ensure game can be played with arrow keys when clicked
     canvas.addEventListener('keydown', function(event) {
-        // Your existing switch statement...
-        
+
         // Prevent default action for arrow keys
         if([38, 40, 87, 83].includes(event.keyCode)) {
             event.preventDefault();
         }
     });
-    
-    const context = canvas.getContext('2d');
-
-    // Game elements: Ball, Paddles, Scores
-    let ball, paddle1, paddle2, score1, score2;
+    canvas.addEventListener('click', function() {
+        canvas.focus();
+    });
 
     // Initialize Game Elements
     function initGame() {
