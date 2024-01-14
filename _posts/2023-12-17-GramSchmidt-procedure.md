@@ -10,7 +10,7 @@ tags: [Python, Linear Algebra]
 
 # Creating the Gram-Schmidt procedure in python 
 ## What is the Gram-Schmidt procedure? 
-My understanding is that the Gram-Schmidt procedure takes a list of vectors and creates an orthogonal (90 degrees in refernce to the basis vectors) basis from that set. 
+Today I have learned that the Gram-Schmidt procedure takes a list of vectors and creates an orthogonal (90 degrees in refernce to the basis vectors) basis from that set. 
 
 ## How are matrices showed in Python?
 If 'A' is a Matrix then we can imagine it in memory as:
