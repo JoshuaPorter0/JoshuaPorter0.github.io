@@ -12,7 +12,7 @@ categories: Projects
 <link rel="stylesheet" href="/assets/css/Mondrian/Pong.css">
 <script src="/assets/js/Mondrian/Pong.js"></script>
 <h1>Mondrian Art Creator</h1>
-<p id="instructions">Click any box to make your own Mondrian art - or click generate to make a new template. You can then color them red, blue, or yellow by clicking them./p>
+<p id="instructions">Click any box to make your own Mondrian art - or click generate to make a new template. You can then color them red, blue, or yellow by clicking them.</p>
 <button id="generate-button">Generate</button>
 <div id="art-container"></div>
 <!-- Grid cells will be generated here by JavaScript -->
