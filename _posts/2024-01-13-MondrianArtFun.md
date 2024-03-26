@@ -14,6 +14,7 @@ categories: Projects
 <h1>Mondrian Art Creator</h1>
 <p id="instructions">Click any box to make your own Mondrian art - or click generate to make a new template.</p>
 <button id="generate-button">Generate</button>
+<p>Click on a container to color it red, blue, yellow, or black! </p>
 <div id="art-container"></div>
 <!-- Grid cells will be generated here by JavaScript -->
 -------------------------------------------------------------------------------------------------------
