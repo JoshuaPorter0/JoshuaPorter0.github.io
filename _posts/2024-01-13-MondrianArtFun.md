@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Create Your Own Mondrian Art"
-date:   2024-01-13 11:00:00 -0400
+date: 2024-01-13 11:00:00 -0400
 categories: Projects
+tags: [fun, art]
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: Reflecting Bear 
 date: 2023-12-18 12:37:00
 categories: [Educational]
-tags: [Python, NumPy, Linear Algebra]
+tags: [Python, NumPy, Linear Algebra, subpost]
 ---
 
 # Reflecting Bear
@@ -17,7 +17,9 @@ In this assignment you will write a Python function that will produce a transfor
 
 Building on the last assingment, where you wrote a code to construct an orthonormal basis that spans a set of input vectors, here you will take a matrix which takes simple form in that basis, and transform it into our starting basis. Recall the from the last video,
 
-\\( T = E T_E E^{-1} \\)
+"The matrix 𝑇 is equal to the matrix 𝑇𝐸 transformed by the matrix 𝐸 and its inverse."
+
+T = E * T(E) * E^(-1)
 
 You will write a function that will construct this matrix.
 This assessment is not conceptually complicated, but will build and test your ability to express mathematical ideas in code.
@@ -30,11 +32,17 @@ In general the operator will combine vectors and/or matrices in the expected lin
 i.e. it will be either the vector dot product, matrix multiplication, or matrix operation on a vector, depending on it's input.
 For example to calculate the following expressions,
 
-\\( a = \mathbf{s}\cdot\mathbf{t} \\)
+"The scalar 𝑎 is equal to the dot product of the vectors 𝑠 and 𝑡"
 
-\\( \mathbf{s} = A\mathbf{t} \\)
+a = S * t
 
-\\( M = A B \\),
+"The vector s is equal to the matrix A multiplied by the vector t."
+
+s = At
+
+"The matrix M is equal to the product of the matrices A and B."
+
+M = AB
 
 One would use the code,
 ```python
@@ -53,7 +61,7 @@ gsBasis(A)
 These, respectively, take the inverse of a matrix, give the transpose of a matrix, and produce a matrix of orthonormal column vectors given a general matrix of column vectors - i.e. perform the Gram-Schmidt process.
 This exercise will require you to combine some of these functions.
 
-### How to submit
+### The assignment:
 Edit the code in the cells below to complete the assignment.
 Once you are finished and happy with it, press the *Submit Assignment* button at the top of this notebook.
 
@@ -92,7 +100,7 @@ def build_reflection_matrix(bearBasis) : # The parameter bearBasis is a 2×2 mat
 ```
 
 ## Test your code before submission
-To test the code you've written above, run the cell (select the cell above, then press the play button [ ▶| ] or press shift-enter).
+To test the code you've written above, run the cell (select the cell above, then press the play button [ ▶| ] or press shift-enter). **This will not work because I have not setup the Jupyter Notebook environment**
 You can then use the code below to test out your function.
 You don't need to submit this cell; you can edit and run it as much as you like.
 

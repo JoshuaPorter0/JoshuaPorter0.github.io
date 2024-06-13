@@ -3,7 +3,7 @@ layout: post
 title: Gram-Schmidt Procedure 
 date: 2023-12-17 20:37:00
 categories: [Educational]
-tags: [Python, Linear Algebra]
+tags: [Python, Linear Algebra, NumPy]
 ---
 
 ![Unit Vector of 3-D space](/assets/Unitvector3dimensional.png)
